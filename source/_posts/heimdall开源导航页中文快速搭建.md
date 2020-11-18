@@ -1,8 +1,8 @@
 ---
 title: heimdall开源导航页中文快速搭建
+tags: heimdall 中文 快速 搭建
+abbrlink: 39422
 date: 2020-10-15 16:53:24
-tags: heimdall 中文 快速 搭建 
-
 ---
 
 ## [仓库地址](https://github.com/odyf/heimdall-cn)
