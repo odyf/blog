@@ -134,6 +134,12 @@ yay包管理器
 sudo pacman -S yay
 ```
 
+安装yay编译工具
+
+```
+sudo pacman -S base-devel 
+```
+
 安装 snapper 快照管理实用工具
 
 ```
