@@ -183,6 +183,16 @@ grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
+### sshd开机启动
+
+```
+systemctl enable sshd
+```
+
+
+
+
+
 ### 退出
 
 PS: 基础环境安装完成
