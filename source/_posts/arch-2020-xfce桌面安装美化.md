@@ -266,3 +266,20 @@ lvc播放器
 sudo pacman -S vlc 
 ```
 
+Git图形化工具gitkraken
+
+```
+yay -S gitkraken
+```
+
+汉化gitkraken 
+
+```
+git clone https://github.com/k-skye/gitkraken-chinese.git
+cd gitkraken-chinese
+sudo cp gitkraken-chinese/strings.json   /opt/gitkraken/resources/app.asar.unpacked/src/
+
+# yay查看安装后的包路径命令
+yay -Ql gitkraken
+```
+
