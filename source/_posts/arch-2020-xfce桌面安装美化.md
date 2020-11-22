@@ -1,11 +1,12 @@
 ---
 title: arch-2020-xfce桌面安装美化
-date: 2020-11-21 11:08:19
 tags:
-- arch
-- 美化
-- xfce
-- lightdm
+  - arch
+  - 美化
+  - xfce
+  - lightdm
+abbrlink: 45862
+date: 2020-11-21 11:08:19
 ---
 
 ### 更换源
@@ -87,6 +88,26 @@ sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
 
 ```
 sudo systemctl enable lightdm
+```
+
+pacman 卸载操作
+
+```
+sudo pacman -Rs
+```
+
+2020-11-21更新 已安装sddm管理器lightdm安装后登陆的一瞬间画面撕裂sddm就没有这个问题
+
+sddm安装
+
+```
+sudo pacman -S sddm
+```
+
+开机启动sddm
+
+```
+sudo systemctl enable sddm
 ```
 
 ### 安装输入法

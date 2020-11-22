@@ -1,11 +1,12 @@
 ---
 title: arch-lightdm-xfce登录管理器美化
-date: 2020-11-21 12:25:41
 tags:
-- arch
-- xfce
-- lightdm
-- 美化
+  - arch
+  - xfce
+  - lightdm
+  - 美化
+abbrlink: 54556
+date: 2020-11-21 12:25:41
 ---
 
 不知道是主题问题还是登录的一瞬间有一个画面撕裂的问题
