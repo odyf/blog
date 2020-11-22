@@ -112,6 +112,39 @@ export XMODIFIERS="@im=fcitx"
 fcitx5 &
 ```
 
+#### 安装声音驱动
+
+```
+sudo pacman -S alsa-utils pulseaudio pulseaudio-alsa
+```
+
+xfce4 panel里面的插件配合使用,必须要有这个进程
+
+```
+sudo pacman -S pavucontrol 
+```
+
+#### 桌面解压软件
+
+```
+sudo pacman -S thunar-archive-plugin xarchiver zip unzip p7zip arj lzop cpio unrar
+```
+
+#### 文件管理器中访问共享
+
+```
+sudo pacman -S gvfs gvfs-smb sshfs
+```
+
+#### 禁止主板蜂鸣提示音
+
+重启生效
+
+```
+echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf
+exit
+```
+
 #### 安装Dock停靠栏
 
 按住CTRL加鼠标左键会弹出设置界面
@@ -168,5 +201,47 @@ OBS录屏软件
 
 ```
 sudo pacman -S obs-studio
+```
+
+桌面搜索软件
+
+```
+sudo pacman -S albert
+```
+
+笔记本电脑电池优化
+
+```
+sudo pacman -S tlp
+sudo systemctl start tlp 
+sudo systemctl enable tlp
+
+```
+
+v2ray
+
+```
+yay -S qv2ray-dev-git v2ray
+
+```
+
+启用NTFS支持
+
+```
+yay -S ntfs-3g-fuse
+```
+
+安装媒体组件
+
+```
+sudo pacman -S libva libva-intel-driver libva-vdpau-driver libva-utils
+# 检查硬件加速库状态，会显示libva库的版本与显卡信息
+vainfo
+```
+
+lvc播放器
+
+```
+sudo pacman -S vlc 
 ```
 
