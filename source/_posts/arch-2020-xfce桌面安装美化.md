@@ -166,6 +166,12 @@ echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf
 exit
 ```
 
+禁止充电嘟嘟声音
+
+```
+在BIOS里使用左右方向键切换到“Configuration”配置项;Power Beep这个选项关闭就行
+```
+
 #### 安装Dock停靠栏
 
 按住CTRL加鼠标左键会弹出设置界面
