@@ -1,11 +1,12 @@
 ---
 title: arch-brtfs-快照-arch总结
-date: 2020-11-23 08:34:34
 tags:
-- brtfs
-- arch
-- 快照
-- 恢复系统
+  - brtfs
+  - arch
+  - 快照
+  - 恢复系统
+abbrlink: 10377
+date: 2020-11-23 08:34:34
 ---
 
 ## 序言

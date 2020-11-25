@@ -11,14 +11,14 @@ date: 2020-11-21 11:08:19
 
 ### 更换源
 
-nano  /etc/pacman.conf末尾添加下面
+sudo nano  /etc/pacman.conf末尾添加下面
 
 ```
 [archlinuxcn]
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 ```
 
-nano /etc/pacman.d/mirrorlist 文件顶端添加
+sudo nano /etc/pacman.d/mirrorlist 文件顶端添加
 
 ```
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch
@@ -34,6 +34,18 @@ sudo pacman -Syy
 
 ```
 sudo pacman -S archlinuxcn-keyring
+```
+
+安装yay
+
+```
+sudo pacman -S yay
+```
+
+添加源
+
+```
+yay --aururl "https://aur.tuna.tsinghua.edu.cn" --save
 ```
 
 ### 安装桌面环境XFCE
